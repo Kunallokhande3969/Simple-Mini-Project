@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "arial";
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #main {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+  }
+  #nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+  /*   background-color: blue; */
+    padding :  0px 60px;
+  }
+  #nav1 i {
+    font-size: 35px;
+    color: white;
+  }
+  #nav1 #kunal {
+    color: white;
+    padding-top: 9px;
+  }
+  #nav1 {
+    display: flex;
+    align-self: center;
+    gap: 22px;
+    padding: 0 60px;
+  }
+  #nav2 {
+    padding: 0 40px;
+    display: flex;
+    gap: 10px;
+    margin-right: 30px;
+  }
+  #nav2 button {
+    color: white;
+    background-color: transparent;
+    height: 32px;
+    border-radius: 100px;
+    border: 1px solid white;
+    width: 100px;
+  }
+  #nav2 #lokhande {
+    background-color: #219f93;
+    border: none;
+  }
+  #kl {
+    padding: 0 100px;
+    display: flex;
+    height: 51%;
+    width: 96%;
+    justify-content: space-between;
+    margin: 1% 2%;
+  /*  background-color: red; */
+  }
+  #k {
+    position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: #fdc800;
+    border-radius: 15px;
+  }
+  #u {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 30%;
+    border-radius: 15px;
+  }
+  #n {
+    height: 100%;
+    width: 28.5%;
+    background-color: #fff;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  #u #a {
+    height: 49%;
+    width: 100%;
+    background-color: #219f93;
+    border-radius: 15px;
+  }
+  #u #l {
+    height: 49%;
+    width: 100%;
+    background-color: #fe90e6;
+    border-radius: 15px;
+  }
+  #k h3 {
+    font-size: 40px;
+    padding: 2% 20px;
+  }
+  #k img {
+    height: 190px;
+    background-color: #fdc800;
+    border-radius: 50%;
+    position: absolute;
+    left: 37%;
+    top : 28%;
+  }
+  #kk {
+    position: absolute;
+    left: 2%;
+    top: 90%;
+    display: flex;
+  }
+  #aa {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+  }
+  #aa h1 {
+    font-weight: 900;
+    font-size: 50px;
+  }
+  #aa i {
+    font-size: 70px;
+    color: #fff;
+  }
+  #a #line {
+    height: 0.3px;
+    width: 85%;
+    background-color: black;
+    margin: 0px 25px;
+    margin-top: 4px;
+  }
+  #a p {
+    font-size: 13px;
+    margin: 0px 30px;
+    margin-top: 4px;
+  }
+  #a #linek {
+    height: 0.3px;
+    width: 85%;
+    background-color: black;
+    margin: 0px 25px;
+    margin-top: 8px;
+  }
+  #a #ll {
+    text-align: end;
+    padding: 8px 0;
+  }
+  #l button {
+    border-radius: 100px;
+    height: 33px;
+    width: 110px;
+    border: 1px solid black;
+    background-color: transparent;
+    margin: 15px 10px;
+  }
+  #l h1 {
+    font-weight: bolder;
+    line-height: 1;
+    font-size: 20px;
+    padding: 0 20px;
+  }
+  #n img {
+    height: 198px;
+    margin: 2px 4.5px;
+    border-radius: 15px;
+    margin-left: 9.9px;
+  }
+  
+  #n h1 {
+    position: absolute;
+    top: 25%;
+    color: #fff;
+    font-weight: 600;
+    left: 30%;
+    z-index: 1;
+    font-size: 40px;
+  }
+  #n i {
+    font-size: 25px;
+  }
+  #p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #n p {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.76);
+  }
+  #n #h {
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #n #s {
+    padding: 4px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #n h3 {
+    padding: 3px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #ooo {
+    padding: 0 15px;
+    margin-top: 10px;
+  }
+  #ch {
+  /*   background-color: red; */
+    padding: 0px 130px;
+    height: 34.5%;
+    width: 100%;
+  }
+  #chacha p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.76);
+  }
+  #chacha {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    justify-content: space-between;
+  }
+  #chacha #ma {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+  }
+  #chacha #ma p {
+    color: white;
+  }
+  #chacha i {
+    background-color: #219f93;
+    color: black;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+  }
+  #chacha button {
+    height: 20px;
+    border-radius: 100px;
+    padding: 0px 10px;
+    border: 1px solid #ffffff73;
+    background-color: transparent;
+    color: #fff;
+  }
+  #ta {
+    display: flex;
+    gap: 12px;
+  }
+  #chachi {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    justify-content: space-between;
+    color: #fff;
+  }
+  #papa {
+    display: flex;
+  }
+  #chachi button {
+    height: 20px;
+    border-radius: 100px;
+    padding: 0px 10px;
+    border: 0.5px solid #ffffff52;
+    background-color: transparent;
+    color: #fff;
+  }
+  #chachi #papa {
+    display: flex;
+    gap: 10px;
+  }
+  #chachi i {
+    background-color: #fdc800;
+    border-radius: 50%;
+    color: black;
+    font-size: 20px;
+  }
+  #ch #line {
+    height: 1px;
+    width: 90%;
+    background-color: #ffffff34;
+    margin: 0px 60px;
+  }
+  #kkk {
+    margin-top: 17px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #kaka {
+    display: flex;
+    gap: 10px;
+  }
+  #kkkk {
+    display: flex;
+    gap: 15px;
+  }
+  #kkk #kaka {
+    display: flex;
+  }
+  #kkk button {
+    color: #fff;
+    background-color: transparent;
+    padding: 0px 5px;
+    border-radius: 100px;
+    border: 1px solid #ffffff67;
+  }
+  #kaka i {
+    color: black;
+    background-color: #fe90e6;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  #kkk #line {
+    height: 1px;
+    width: 90%;
+    background-color: #ffffff50;
+    margin-top: 20px;
+  }
+  #ch #line {
+    height: 1px;
+    width: 90%;
+    background-color: #ffffff50;
+    margin: 8px 60px;
+  }
+  #nana{
+    margin-top: 16px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #nani{
+    display: flex;
+    gap: 10px;
+  }
+  #nana i{
+    color: black;
+    background-color: #E3F40A ;
+    font-size: 20px;
+    border-radius: 50%;
+  }
+  #nana button{
+    color: #fff;
+    background-color: transparent;
+    padding: 0px 5px;
+    border-radius: 100px;
+    border: 1px solid #ffffff67;
+  }
+  
